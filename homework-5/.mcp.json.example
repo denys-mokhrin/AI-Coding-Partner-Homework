@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "<YOUR_GITHUB_PAT_HERE>"
+      }
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:\\Users\\denys\\OneDrive\\Desktop\\SEDPractice\\AI-Coding-Partner-Homework"
+      ]
+    },
+    "lorem-ipsum-reader": {
+      "command": "C:\\Users\\denys\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "args": [
+        "C:\\Users\\denys\\OneDrive\\Desktop\\SEDPractice\\AI-Coding-Partner-Homework\\homework-5\\custom-mcp-server\\server.py"
+      ]
+    }
+  }
+}
