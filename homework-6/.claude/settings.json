@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python -c \"import json,sys; d=json.load(sys.stdin); cmd=d.get('tool_input',{}).get('command',''); sys.exit(0) if 'git push' not in cmd else None\" || (cd \"C:\\Users\\denys\\OneDrive\\Desktop\\SEDPractice\\AI-Coding-Partner-Homework\\homework-6\" && \"C:\\Users\\denys\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" check_coverage.py)",
+            "timeout": 120,
+            "statusMessage": "Checking test coverage before push..."
+          }
+        ]
+      }
+    ]
+  }
+}

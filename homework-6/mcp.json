@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "context7": {
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp@latest"]
+    },
+    "pipeline-status": {
+      "command": "C:\\Users\\denys\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "args": ["C:\\Users\\denys\\OneDrive\\Desktop\\SEDPractice\\AI-Coding-Partner-Homework\\homework-6\\mcp\\server.py"]
+    }
+  }
+}
